@@ -2,10 +2,13 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<section class="intro">
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<section class="intro" style="background-color: @Configuration["IntroSection:BackgroundColor"]">
     <div class="container">
         <img class="title" src="/images/space-game-title.svg" alt="Space Game">
-        <p>An example site for learning</p>
+        <p>@Configuration["IntroSection:Text"]</p>
     </div>
 </section>
 <section class="download">
