@@ -1,3 +1,10 @@
+This is the repo where I added multi-stage pipeline with unit tests and also used env vars in azure portal for appsettings to configure different styles in different envs. 
+
+Pipeline
+![Pipeline](Results/multi-stage-pipeline-with-unit-tests.png)
+
+Deployed Apps
+![Deployed Apps](Results/using-appsettings-env-vars-in-azure-portal-for-env-based-styling.png)
 
 # Contributing
 
@@ -63,3 +70,4 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+
